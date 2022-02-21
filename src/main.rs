@@ -22,7 +22,7 @@ fn main() {
         z: 0.0,
     };
     sponge.push(cube);
-    sponge = generate(sponge, 1, 2);
+    sponge = generate(sponge, 1, 3);
 
     let mut window = Window::new("Menger Sponge");
 
